@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ghiceste numarul meu!</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="textColor">Ghiceste numarul meu!</h1>
+      <p class="between textColor">(Intre 1 si 20)</p>
+      <button class="btn again textColor">Din nou!</button>
+      <div class="theme-switch-wrapper">
+        <span class="toggle-text textColor">Light Mode</span>
+        <label class="theme-switch">
+          <input type="checkbox" />
+          <div class="slider round"></div>
+        </label>
+      </div>
+      <div class="number textColor">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check textColor">Check!</button>
+      </section>
+      <section class="right">
+        <p class="message textColor">Incepe sa ghicesti...</p>
+        <p class="label-score textColor">
+          💯 Score: <span class="score">20</span>
+        </p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore textColor">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="newScript.js"></script>
+  </body>
+</html>
